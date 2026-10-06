@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center"
+    android:layoutDirection="rtl">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="🎧 المترجم الفوري" android:textSize="28sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="يسمع الكلام، يكتشف اللغة، يترجمه إلى العربية وينطقه في السماعة." android:textSize="17sp" android:gravity="center" />
+    <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="28dp" android:text="متوقف" android:textSize="18sp" />
+    <Button android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="28dp" android:text="تشغيل الترجمة" />
+    <Button android:id="@+id/stop" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:text="إيقاف" />
+</LinearLayout>
